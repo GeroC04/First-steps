@@ -1,0 +1,112 @@
+body {
+    background-color: #ccc;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mainHeader{
+    background-color: #bbb;
+    width:100%;
+    height:116px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.mainHeader p {
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    margin:10px;
+}
+
+.mainHeader__nav{
+    height: 50px;
+    padding:4px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mainHeader__nav a{
+    color: black;
+    font-size: large;
+}
+
+.mainHeader__nav input{
+    width: 115px;
+    background-color: #bbb;
+    border: 0.5px solid #aaa;
+}
+
+.mainHeader__nav input:focus{
+    outline: none;
+    border: 0.5px solid #999;
+}
+
+.mainContainer h3{
+    text-align: center;
+}
+
+.mainContainer {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mC__sectionGeneral {
+    background-color: #ccc;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.productsContainer{
+    background-color: #ddd;
+    margin:5px;
+    padding:7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productsContainer p{
+    margin: 4px;
+}
+
+.productsContainer a{
+    align-self: center;
+}
+
+.mC__sectionGeneral__aSeeAll{
+    align-self: center;
+}
+
+.mC__sectionSearch {
+    background-color: #ccc;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resultsContainer{
+    background-color: #ddd;
+    margin:5px;
+    padding:7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resultsContainer p{
+    margin: 4px;
+}
+
+.resultsContainer a{
+    align-self: center;
+}
